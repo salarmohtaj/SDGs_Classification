@@ -12,3 +12,4 @@ else:
     print(classification_report(merged["SDG_ref"], merged["SDG_ans"]))
     result = f1_score(merged["SDG_ref"], merged["SDG_ans"], average='macro')
     print(f'The macro average F1 is {result*100:.3f}')
+
